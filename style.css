@@ -1,0 +1,67 @@
+@-moz-document domain("apclassroom.collegeboard.org") {
+body {
+    /* Loading Screen */
+    overflow: auto;
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED);
+    height: 100vh;
+    margin: 0;
+}
+
+.chameleon .PlayerModeContainer--header {
+    /* Header */
+    /* background-image: linear-gradient(to right, #56CCF2, #2F80ED); */
+    background: linear-gradient(135deg, #000000 0%, #434343 100%);
+    border-top: #ffffff00;
+    border-bottom: #ffffff00;
+}
+
+.chameleon .PlayerModeContainer--content .lrn.lrn-assess .Navigation {
+    /* Border */
+    background-color: #000;
+    border-bottom: #000;
+}
+
+.chameleon .PlayerModeContainer--content .lrn.lrn-assess .lrn-items-region .slides-container .learnosity-item .lrn-assess-content.content .lrn {
+    /* Main Text */
+    color: #008bff;
+}
+
+.chameleon .PlayerModeContainer {
+    /* Background */
+    background: linear-gradient(135deg, #000000 0%, #434343 100%);
+}
+
+.lrn-assess {
+    /* Foreground */
+    background: linear-gradient(135deg, #000000 0%, #434343 100%);
+}
+
+.chameleon .CharmBracelet {
+    /* Header 2 */
+    background: linear-gradient(135deg, #000000 0%, #434343 100%);
+}
+
+.chameleon .text-blue-700 {
+    color: black;
+}
+
+.chameleon .border-blue-700 {
+    border-color: black;
+}
+
+.chameleon .question-info .question-nr {
+    color: #008bff;
+}
+
+.chameleon .Toolkit>.tooltip-container {
+    background-color: gray;
+}
+
+.chameleon .Zoom--expander {
+    background-color: gray;
+}
+
+.chameleon .nav-container {
+    background-color: gray;
+}
+}
